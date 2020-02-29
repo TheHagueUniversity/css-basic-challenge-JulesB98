@@ -77,9 +77,22 @@ h3 {
 header {
   background: #ad443d;
   color: #F2FFF2;
+  padding-bottom: 20px;
   /* font-family: 'Permanent Marker' ; */
 }
 
+.column {
+  float: left;
+  text-align: center;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* Projects
 ------------------------------------*/
