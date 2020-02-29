@@ -18,6 +18,7 @@ html {
   box-sizing: inherit;
 }
 
+
 body {
   color: #343434;
   margin: 0;
@@ -71,7 +72,6 @@ h3 {
   border-bottom: none;
 }
 
-
 /* Profile
 ------------------------------------*/
 header {
@@ -107,6 +107,33 @@ header {
   margin-top: 0;
 }
 
+/* BUTTON */
+.homeButton {
+  text-align: center;
+
+}
+.HOME {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: #ad443d;
+  padding: 20px 375px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+}
+.WORK {
+  background-color: #ad443d; /* Green */
+  border: none;
+  color: WHITE;
+  padding: 20px 300px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 30px;
+}
 
 /* Work Experience
 ------------------------------------*/
