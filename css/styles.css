@@ -113,6 +113,7 @@ header {
 
 }
 .HOME {
+  cursor: pointer;
   background-color: #ffffff; /* Green */
   border: none;
   color: #ad443d;
@@ -124,7 +125,8 @@ header {
   font-size: 30px;
 }
 .WORK {
-  background-color: #ad443d; /* Green */
+  cursor: pointer;
+  background-color: #ad6b66; /* Green */
   border: none;
   color: WHITE;
   padding: 20px 300px;
